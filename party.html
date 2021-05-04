@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+                console.log("Let's party!")
+                var time = parseInt(prompt("Wooo let's party! How long until we can party?"))
+                //parseInt(time)
+                //console.log(time + 1)
+
+
+
+
+                if(time > 0)
+                {
+                    for(var i = time; i >= 0; i = i - 1)
+                    {
+                        if(i === 0)
+                            console.log("WOOOO PARTY TIME!!!")
+                        else
+                            console.log(i)
+                    }
+                }
+                else if(time <= 0)
+                    console.log("Woah we're late then Let's party!!")
+
+                else
+                {
+                    console.log("Dude...what?")
+                }
+
+
+        </script>
+    </body>
+</html>
